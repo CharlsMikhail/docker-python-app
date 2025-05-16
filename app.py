@@ -5,7 +5,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-type", "text/plain")
         self.end_headers()
-        self.wfile.write(b"Holasa Mundo cambiando\n")
+        self.wfile.write(b"Holasa Mundo cambiando desde celular termius\n")
 
 if __name__ == "__main__":
     server_address = ("0.0.0.0", 8097)
